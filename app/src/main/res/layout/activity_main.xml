@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Simple Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Notification with image"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Click action Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Indeterminate Progress Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Determinate Progress Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Multi Line Text Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Action button Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_show8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Custom Notification"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Hide all notification"
+        android:textColor="@color/white" />
+
+</LinearLayout>
